@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @StateObject private var speechRecognizer = JarvisRecognizer()
+    @StateObject private var speechRecognizer = AssemblyAIRecognizer()
 
     private var speaker = OpenAISpeechManager()
     @State private var messages: [Message] = []

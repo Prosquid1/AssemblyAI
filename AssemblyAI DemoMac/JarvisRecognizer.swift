@@ -9,7 +9,7 @@ import AppKit
 import Foundation
 
 @MainActor
-final class JarvisRecognizer: ObservableObject {
+final class AssemblyAIRecognizer: ObservableObject {
 
     enum State {
         case idle
@@ -72,9 +72,9 @@ final class JarvisRecognizer: ObservableObject {
     func returnToListening() { state = .listening }
 }
 
-// MARK: - WebSocket
+// MARK: - AssemblyAIRecognizer WebSocket
 
-private extension JarvisRecognizer {
+private extension AssemblyAIRecognizer {
 
     func connectWebSocket() {
         var components = URLComponents()
@@ -159,7 +159,7 @@ private extension JarvisRecognizer {
 
 // MARK: - Audio engine
 
-private extension JarvisRecognizer {
+private extension AssemblyAIRecognizer {
 
     func beginRecognition() async {
         transcript = ""
@@ -240,7 +240,7 @@ private extension JarvisRecognizer {
 
 // MARK: - Silence timer
 
-private extension JarvisRecognizer {
+private extension AssemblyAIRecognizer {
 
     func resetSilenceTimer() {
         silenceTimer?.invalidate()
