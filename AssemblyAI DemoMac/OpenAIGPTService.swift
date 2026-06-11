@@ -142,7 +142,7 @@ final class OpenAIGPTService {
 
         let headers: HTTPHeaders = [
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer YOUR_OPEN_API_KEY"
         ]
 
 
