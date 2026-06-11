@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EABDDB9B2FDB2D1400721BC3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EABDDB9A2FDB2D1400721BC3 /* Alamofire */; };
+		EABDDB9D2FDB2D1400721BC3 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = EABDDB9C2FDB2D1400721BC3 /* SwiftyJSON */; };
+		EABDDBAC2FDB306D00721BC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABDDBA52FDB306D00721BC3 /* Assets.xcassets */; };
+		EABDDBAD2FDB306D00721BC3 /* OpenAIGPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBA92FDB306D00721BC3 /* OpenAIGPTService.swift */; };
+		EABDDBAE2FDB306D00721BC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBA72FDB306D00721BC3 /* ContentView.swift */; };
+		EABDDBB02FDB306D00721BC3 /* OpenAISpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBAA2FDB306D00721BC3 /* OpenAISpeechManager.swift */; };
+		EABDDBB12FDB306D00721BC3 /* AssemblyAI_DemoMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBA42FDB306D00721BC3 /* AssemblyAI_DemoMacApp.swift */; };
+		EABDDBB22FDB306D00721BC3 /* JarvisRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBA82FDB306D00721BC3 /* JarvisRecognizer.swift */; };
+		EABDDBB32FDB306D00721BC3 /* VoiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBAB2FDB306D00721BC3 /* VoiceButton.swift */; };
+		EABDDBB52FDB309600721BC3 /* GPTResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABDDBB42FDB309600721BC3 /* GPTResponse.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EABDDB412FDB2BB500721BC3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +40,18 @@
 		EABDDB332FDB2BB300721BC3 /* AssemblyAI DemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssemblyAI DemoMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABDDB402FDB2BB500721BC3 /* AssemblyAI DemoMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssemblyAI DemoMacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABDDB4A2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssemblyAI DemoMacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABDDBA42FDB306D00721BC3 /* AssemblyAI_DemoMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyAI_DemoMacApp.swift; sourceTree = "<group>"; };
+		EABDDBA52FDB306D00721BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABDDBA72FDB306D00721BC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EABDDBA82FDB306D00721BC3 /* JarvisRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisRecognizer.swift; sourceTree = "<group>"; };
+		EABDDBA92FDB306D00721BC3 /* OpenAIGPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIGPTService.swift; sourceTree = "<group>"; };
+		EABDDBAA2FDB306D00721BC3 /* OpenAISpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAISpeechManager.swift; sourceTree = "<group>"; };
+		EABDDBAB2FDB306D00721BC3 /* VoiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceButton.swift; sourceTree = "<group>"; };
+		EABDDBB42FDB309600721BC3 /* GPTResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTResponse.swift; sourceTree = "<group>"; };
+		EABDDBBA2FDB319A00721BC3 /* AssemblyAI-DemoMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssemblyAI-DemoMac-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "AssemblyAI DemoMac";
-			sourceTree = "<group>";
-		};
 		EABDDB432FDB2BB500721BC3 /* AssemblyAI DemoMacTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "AssemblyAI DemoMacTests";
@@ -52,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABDDB9D2FDB2D1400721BC3 /* SwiftyJSON in Frameworks */,
+				EABDDB9B2FDB2D1400721BC3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +94,10 @@
 		EABDDB2A2FDB2BB300721BC3 = {
 			isa = PBXGroup;
 			children = (
-				EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */,
+				EABDDBA32FDB303E00721BC3 /* AssemblyAI DemoMac */,
 				EABDDB432FDB2BB500721BC3 /* AssemblyAI DemoMacTests */,
 				EABDDB4D2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */,
+				EABDDB992FDB2D1400721BC3 /* Frameworks */,
 				EABDDB342FDB2BB300721BC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +110,29 @@
 				EABDDB4A2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EABDDB992FDB2D1400721BC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABDDBA32FDB303E00721BC3 /* AssemblyAI DemoMac */ = {
+			isa = PBXGroup;
+			children = (
+				EABDDBBA2FDB319A00721BC3 /* AssemblyAI-DemoMac-Info.plist */,
+				EABDDBB42FDB309600721BC3 /* GPTResponse.swift */,
+				EABDDBA42FDB306D00721BC3 /* AssemblyAI_DemoMacApp.swift */,
+				EABDDBA52FDB306D00721BC3 /* Assets.xcassets */,
+				EABDDBA72FDB306D00721BC3 /* ContentView.swift */,
+				EABDDBA82FDB306D00721BC3 /* JarvisRecognizer.swift */,
+				EABDDBA92FDB306D00721BC3 /* OpenAIGPTService.swift */,
+				EABDDBAA2FDB306D00721BC3 /* OpenAISpeechManager.swift */,
+				EABDDBAB2FDB306D00721BC3 /* VoiceButton.swift */,
+			);
+			path = "AssemblyAI DemoMac";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +150,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */,
-			);
 			name = "AssemblyAI DemoMac";
 			packageProductDependencies = (
+				EABDDB9A2FDB2D1400721BC3 /* Alamofire */,
+				EABDDB9C2FDB2D1400721BC3 /* SwiftyJSON */,
 			);
 			productName = "AssemblyAI DemoMac";
 			productReference = EABDDB332FDB2BB300721BC3 /* AssemblyAI DemoMac.app */;
@@ -175,6 +217,7 @@
 				TargetAttributes = {
 					EABDDB322FDB2BB300721BC3 = {
 						CreatedOnToolsVersion = 26.0;
+						LastSwiftMigration = 2600;
 					};
 					EABDDB3F2FDB2BB500721BC3 = {
 						CreatedOnToolsVersion = 26.0;
@@ -195,6 +238,10 @@
 			);
 			mainGroup = EABDDB2A2FDB2BB300721BC3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EABDDB672FDB2BD400721BC3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EABDDB682FDB2BDA00721BC3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EABDDB342FDB2BB300721BC3 /* Products */;
 			projectDirPath = "";
@@ -212,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABDDBAC2FDB306D00721BC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABDDBAD2FDB306D00721BC3 /* OpenAIGPTService.swift in Sources */,
+				EABDDBAE2FDB306D00721BC3 /* ContentView.swift in Sources */,
+				EABDDBB52FDB309600721BC3 /* GPTResponse.swift in Sources */,
+				EABDDBB02FDB306D00721BC3 /* OpenAISpeechManager.swift in Sources */,
+				EABDDBB12FDB306D00721BC3 /* AssemblyAI_DemoMacApp.swift in Sources */,
+				EABDDBB22FDB306D00721BC3 /* JarvisRecognizer.swift in Sources */,
+				EABDDBB32FDB306D00721BC3 /* VoiceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,15 +449,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NVFCH4PK72;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AssemblyAI-DemoMac-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -416,6 +483,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -426,15 +494,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NVFCH4PK72;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = YES;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AssemblyAI-DemoMac-Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -573,6 +653,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EABDDB672FDB2BD400721BC3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.12.0;
+			};
+		};
+		EABDDB682FDB2BDA00721BC3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EABDDB9A2FDB2D1400721BC3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EABDDB672FDB2BD400721BC3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EABDDB9C2FDB2D1400721BC3 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EABDDB682FDB2BDA00721BC3 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EABDDB2B2FDB2BB300721BC3 /* Project object */;
 }

@@ -36,6 +36,24 @@ struct ContentView: View {
                     break
                 }
             }
+        }.onAppear {
+            speechRecognizer.onVoiceDetected = {
+                speaker.stop()
+            }
+
+            speechRecognizer.onFinalTranscript = { text in
+
+                let cleaned =
+                text.trimmingCharacters(
+                    in: .whitespacesAndNewlines
+                )
+
+                guard !cleaned.isEmpty else { return }
+
+                DispatchQueue.main.async {
+                    sendMessage(cleaned)
+                }
+            }
         }
 
     }
