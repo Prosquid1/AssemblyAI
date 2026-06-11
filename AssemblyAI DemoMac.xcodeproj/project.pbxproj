@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EABDDB412FDB2BB500721BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABDDB2B2FDB2BB300721BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABDDB322FDB2BB300721BC3;
+			remoteInfo = "AssemblyAI DemoMac";
+		};
+		EABDDB4B2FDB2BB500721BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EABDDB2B2FDB2BB300721BC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EABDDB322FDB2BB300721BC3;
+			remoteInfo = "AssemblyAI DemoMac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EABDDB332FDB2BB300721BC3 /* AssemblyAI DemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AssemblyAI DemoMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABDDB402FDB2BB500721BC3 /* AssemblyAI DemoMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssemblyAI DemoMacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABDDB4A2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AssemblyAI DemoMacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AssemblyAI DemoMac";
+			sourceTree = "<group>";
+		};
+		EABDDB432FDB2BB500721BC3 /* AssemblyAI DemoMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AssemblyAI DemoMacTests";
+			sourceTree = "<group>";
+		};
+		EABDDB4D2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AssemblyAI DemoMacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABDDB302FDB2BB300721BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB3D2FDB2BB500721BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB472FDB2BB500721BC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EABDDB2A2FDB2BB300721BC3 = {
+			isa = PBXGroup;
+			children = (
+				EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */,
+				EABDDB432FDB2BB500721BC3 /* AssemblyAI DemoMacTests */,
+				EABDDB4D2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */,
+				EABDDB342FDB2BB300721BC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EABDDB342FDB2BB300721BC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABDDB332FDB2BB300721BC3 /* AssemblyAI DemoMac.app */,
+				EABDDB402FDB2BB500721BC3 /* AssemblyAI DemoMacTests.xctest */,
+				EABDDB4A2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABDDB322FDB2BB300721BC3 /* AssemblyAI DemoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABDDB542FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMac" */;
+			buildPhases = (
+				EABDDB2F2FDB2BB300721BC3 /* Sources */,
+				EABDDB302FDB2BB300721BC3 /* Frameworks */,
+				EABDDB312FDB2BB300721BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EABDDB352FDB2BB300721BC3 /* AssemblyAI DemoMac */,
+			);
+			name = "AssemblyAI DemoMac";
+			packageProductDependencies = (
+			);
+			productName = "AssemblyAI DemoMac";
+			productReference = EABDDB332FDB2BB300721BC3 /* AssemblyAI DemoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EABDDB3F2FDB2BB500721BC3 /* AssemblyAI DemoMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABDDB572FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMacTests" */;
+			buildPhases = (
+				EABDDB3C2FDB2BB500721BC3 /* Sources */,
+				EABDDB3D2FDB2BB500721BC3 /* Frameworks */,
+				EABDDB3E2FDB2BB500721BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABDDB422FDB2BB500721BC3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EABDDB432FDB2BB500721BC3 /* AssemblyAI DemoMacTests */,
+			);
+			name = "AssemblyAI DemoMacTests";
+			packageProductDependencies = (
+			);
+			productName = "AssemblyAI DemoMacTests";
+			productReference = EABDDB402FDB2BB500721BC3 /* AssemblyAI DemoMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EABDDB492FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABDDB5A2FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMacUITests" */;
+			buildPhases = (
+				EABDDB462FDB2BB500721BC3 /* Sources */,
+				EABDDB472FDB2BB500721BC3 /* Frameworks */,
+				EABDDB482FDB2BB500721BC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EABDDB4C2FDB2BB500721BC3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EABDDB4D2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */,
+			);
+			name = "AssemblyAI DemoMacUITests";
+			packageProductDependencies = (
+			);
+			productName = "AssemblyAI DemoMacUITests";
+			productReference = EABDDB4A2FDB2BB500721BC3 /* AssemblyAI DemoMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABDDB2B2FDB2BB300721BC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					EABDDB322FDB2BB300721BC3 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					EABDDB3F2FDB2BB500721BC3 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = EABDDB322FDB2BB300721BC3;
+					};
+					EABDDB492FDB2BB500721BC3 = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = EABDDB322FDB2BB300721BC3;
+					};
+				};
+			};
+			buildConfigurationList = EABDDB2E2FDB2BB300721BC3 /* Build configuration list for PBXProject "AssemblyAI DemoMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EABDDB2A2FDB2BB300721BC3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EABDDB342FDB2BB300721BC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABDDB322FDB2BB300721BC3 /* AssemblyAI DemoMac */,
+				EABDDB3F2FDB2BB500721BC3 /* AssemblyAI DemoMacTests */,
+				EABDDB492FDB2BB500721BC3 /* AssemblyAI DemoMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABDDB312FDB2BB300721BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB3E2FDB2BB500721BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB482FDB2BB500721BC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABDDB2F2FDB2BB300721BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB3C2FDB2BB500721BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABDDB462FDB2BB500721BC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EABDDB422FDB2BB500721BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABDDB322FDB2BB300721BC3 /* AssemblyAI DemoMac */;
+			targetProxy = EABDDB412FDB2BB500721BC3 /* PBXContainerItemProxy */;
+		};
+		EABDDB4C2FDB2BB500721BC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EABDDB322FDB2BB300721BC3 /* AssemblyAI DemoMac */;
+			targetProxy = EABDDB4B2FDB2BB500721BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EABDDB522FDB2BB500721BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EABDDB532FDB2BB500721BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EABDDB552FDB2BB500721BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EABDDB562FDB2BB500721BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EABDDB582FDB2BB500721BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssemblyAI DemoMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssemblyAI DemoMac";
+			};
+			name = Debug;
+		};
+		EABDDB592FDB2BB500721BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssemblyAI DemoMac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AssemblyAI DemoMac";
+			};
+			name = Release;
+		};
+		EABDDB5B2FDB2BB500721BC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AssemblyAI DemoMac";
+			};
+			name = Debug;
+		};
+		EABDDB5C2FDB2BB500721BC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NVFCH4PK72;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "clickdrop.assemblyaimac.AssemblyAI-DemoMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "AssemblyAI DemoMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABDDB2E2FDB2BB300721BC3 /* Build configuration list for PBXProject "AssemblyAI DemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABDDB522FDB2BB500721BC3 /* Debug */,
+				EABDDB532FDB2BB500721BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABDDB542FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABDDB552FDB2BB500721BC3 /* Debug */,
+				EABDDB562FDB2BB500721BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABDDB572FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABDDB582FDB2BB500721BC3 /* Debug */,
+				EABDDB592FDB2BB500721BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABDDB5A2FDB2BB500721BC3 /* Build configuration list for PBXNativeTarget "AssemblyAI DemoMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABDDB5B2FDB2BB500721BC3 /* Debug */,
+				EABDDB5C2FDB2BB500721BC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABDDB2B2FDB2BB300721BC3 /* Project object */;
+}
